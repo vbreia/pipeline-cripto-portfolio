@@ -1,37 +1,37 @@
 <mxfile host="65bd71144e">
     <diagram id="a5GeyBs4f6B5eD670r9b" name="Page-1">
-        <mxGraphModel dx="1999" dy="730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2340" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="4" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="3">
+                <mxCell id="4" value="" style="edgeStyle=none;html=1;strokeColor=#d5ccef;fillColor=#6a00ff;strokeWidth=4;shadow=0;" edge="1" parent="1" source="2" target="3">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="2" value="dados mercado bitcoin&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="2" value="dados mercado bitcoin&amp;nbsp;" style="whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#d5ccef;strokeWidth=4;shadow=0;" vertex="1" parent="1">
                     <mxGeometry x="335" y="170" width="170" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3" target="5">
+                <mxCell id="6" value="" style="edgeStyle=none;html=1;strokeColor=#d5ccef;fillColor=#6a00ff;strokeWidth=4;shadow=0;" edge="1" parent="1" source="3" target="5">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3" target="7">
+                <mxCell id="8" value="" style="edgeStyle=none;html=1;strokeColor=#d5ccef;fillColor=#6a00ff;strokeWidth=4;shadow=0;" edge="1" parent="1" source="3" target="7">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="tratamento dos dados" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="3" value="tratamento dos dados" style="whiteSpace=wrap;html=1;strokeColor=#d5ccef;fillColor=#6a00ff;fontColor=#ffffff;strokeWidth=4;shadow=0;" vertex="1" parent="1">
                     <mxGeometry x="330" y="310" width="175" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="" style="edgeStyle=none;html=1;fontSize=18;" edge="1" parent="1" source="5" target="11">
+                <mxCell id="12" value="" style="edgeStyle=none;html=1;fontSize=18;strokeColor=#d5ccef;fillColor=#6a00ff;strokeWidth=4;shadow=0;" edge="1" parent="1" source="5" target="11">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="dados em json" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="5" value="dados em json" style="whiteSpace=wrap;html=1;strokeColor=#d5ccef;fillColor=#6a00ff;fontColor=#ffffff;strokeWidth=4;shadow=0;" vertex="1" parent="1">
                     <mxGeometry x="570" y="430" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="dados em sqlite" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="7" value="dados em sqlite" style="whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#d5ccef;strokeWidth=4;shadow=0;" vertex="1" parent="1">
                     <mxGeometry x="160" y="430" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="9" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Projeto pipeline valores de criptomoedas&lt;/font&gt;&lt;/h1&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
                     <mxGeometry x="10" y="10" width="450" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="breia-data-cripto" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="11" value="breia-data-cripto" style="whiteSpace=wrap;html=1;strokeColor=#d5ccef;fillColor=#6a00ff;fontColor=#ffffff;strokeWidth=4;shadow=0;" vertex="1" parent="1">
                     <mxGeometry x="550" y="570" width="160" height="60" as="geometry"/>
                 </mxCell>
             </root>
