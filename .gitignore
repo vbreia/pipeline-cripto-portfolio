@@ -1,33 +1,15 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-.env
-
-# Airflow
-airflow/logs/*
-airflow/*.pid
-airflow/*.err
-airflow/*.log
-airflow.cfg
-airflow.db
-webserver_config.py
-
-# Data
-data/raw/*
-data/processed/*
-data/database/*.db
-
-# IDEs
 .idea/
 .vscode/
 *.swp
 *.swo
+venv/
 
 # OS
 .DS_Store
 Thumbs.db 
+
+#basicos
+.gitignore
+fluxogram.drawio
+google-chrome-stable_current_amd64.deb
+

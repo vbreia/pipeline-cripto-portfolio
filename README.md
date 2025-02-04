@@ -1,7 +1,7 @@
-# Pipeline de Dados - Mercado Bitcoin
+# Pipeline de Dados extraidos do site [Mercado Bitcoin](https://www.mercadobitcoin.com.br/)
 
 ## Descrição do Projeto
-Pipeline de dados desenvolvido para coletar automaticamente os preços das criptomoedas Bitcoin (BTC), Ethereum (ETH) e Solana (SOL) do site mercadobitcoin.com.br através de webscraping. Os dados são processados, armazenados em formato JSON e em um banco de dados SQLite, preparando-os para futura integração com a plataforma "breia-data-cripto".
+Pipeline de dados desenvolvido para coletar automaticamente os preços das criptomoedas Bitcoin (BTC), Ethereum (ETH), Solana (SOL), XRP, Tether (USDT): R$ 5,77 e Chainlink (LINK) do site mercadobitcoin.com.br através de webscraping com selenium. Os dados são processados, armazenados em formato JSON e em um banco de dados SQLite, preparando-os para futura integração com a plataforma "breia-data-cripto".
 
 ## Funcionalidades
 - Webscraping automatizado do Mercado Bitcoin
@@ -14,30 +14,15 @@ Pipeline de dados desenvolvido para coletar automaticamente os preços das cript
 - Python
 - Apache Airflow
 - SQLite
+- Json
 - Docker
-- Beautiful Soup (webscraping)
+- Selenium (webscraping)
 - Pandas (processamento de dados)
 
-## Estrutura do Projeto
+## Conteudo do repositorio
 
-pipeline-portfolio/
-├── airflow/
-│   └── dags/
-│       └── crypto_pipeline.py
-├── src/
-│   ├── scrapers/
-│   │   └── mercado_bitcoin.py
-│   ├── processors/
-│   │   └── data_transformer.py
-│   └── loaders/
-│       ├── json_loader.py
-│       └── sqlite_loader.py
-├── data/
-│   ├── raw/
-│   ├── processed/
-│   └── database/
-│       └── crypto.db
-└── docker-compose.yml
+- `...`
+
 
 ## Fluxo de Dados
 1. **Extração**: Coleta automática dos preços via webscraping
@@ -53,4 +38,6 @@ pipeline-portfolio/
 - Desenvolvimento da plataforma "breia-data-cripto"
 - Implementação da integração automática dos dados coletados
 - Interface de visualização dos dados
+
+
 
